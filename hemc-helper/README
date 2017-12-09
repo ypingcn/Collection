@@ -1,0 +1,73 @@
+# README
+
+- lastest update **2017.07.03**
+
+## Updatelog
+
+- 2017.12.10
+
+> change repository to folder in ```Collection``` repo.
+
+- 2017.07.03
+
+> add GUI edition（migrated from git@OSC)
+
+- 2017.06.30
+
+> remove commit logs for privacy reason.
+
+- 2016.09.03
+
+> Try multifile programming by using Dev-C++ IDE
+
+- 2016.03.30
+
+> Rewrite README in makedown.
+
+- 2015.11.15
+
+> Initial.
+
+## 更改记录
+
+- 2017.12.10
+
+> 将独立仓库迁移至 ``` Collection ``` 仓库里
+
+- 2017.07.03
+
+> 添加界面版 （从 git@OSC 迁移而来）
+
+- 2017.06.30
+
+> 出于保护个人隐私考虑，移除所有 commit 记录
+
+- 2016.09.03
+
+> 尝试使用 Dev-C++ IDE 进行多文件编译
+
+- 2016.03.30
+
+> 用 markdown 重写 README
+
+- 2015.11.15
+
+> 初次提交
+
+
+## Description
+
+- This is a C program designed for students in GZ (Guangzhou,China) HEMC(higher education mega center).
+
+- Also,I can learn to use Github by opening this program source code when I am just a freshman in university.
+
+- If you have any suggestions,you can create a new issue in this repository.
+
+
+## 描述
+
+- 这是一个C语言程序旨在为广州大学城学子提供帮助。
+
+- 同时，我也可以通过开放程序的源代码来学习如何使用github。
+
+- 如果你对这个项目有什么建议或者意见，请在本仓库的 issue 里发表。

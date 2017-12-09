@@ -1,0 +1,21 @@
+把原來的 git 移除掉
+
+> sudo rm .git -r
+
+初始化
+
+> git init
+
+> git remote add origin https://github.com/username/repo-name.git
+
+> git remote -v
+
+再重新加入全部
+
+> git add --all
+
+> git commit -am 'RESTART :)'
+
+推上去 就會全部重新開始 commit 紀錄都不見了！
+
+> git push -f origin master
