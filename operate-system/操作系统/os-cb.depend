@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1515392275 source:c:\users\yping\desktop\os-cb\job.cpp
+	"job.h"
+	<iostream>
+	<cstdio>
+
+1515394709 c:\users\yping\desktop\os-cb\job.h
+	<vector>
+
+1515395666 source:c:\users\yping\desktop\os-cb\main.cpp
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	<ctime>
+	"os.h"
+
+1515395654 c:\users\yping\desktop\os-cb\os.h
+	"constant.h"
+	"job.h"
+	"memory.h"
+	"process.h"
+	<iostream>
+
+1515392185 c:\users\yping\desktop\os-cb\constant.h
+
+1515393176 c:\users\yping\desktop\os-cb\memory.h
+	<cstdio>
+	<map>
+	<vector>
+	"constant.h"
+
+1515394726 c:\users\yping\desktop\os-cb\process.h
+	"constant.h"
+	<queue>
+	<vector>
+
+1515393683 source:c:\users\yping\desktop\os-cb\memory.cpp
+	"memory.h"
+	<iostream>
+
+1515394914 source:c:\users\yping\desktop\os-cb\os.cpp
+	"os.h"
+	<iostream>
+
+1515394745 source:c:\users\yping\desktop\os-cb\process.cpp
+	"process.h"
+	<iostream>
+	<cstdio>
+
