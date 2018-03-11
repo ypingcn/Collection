@@ -62,6 +62,14 @@ void ImageWindow::mouseDoubleClickEvent(QMouseEvent *event)
 
 void ImageWindow::last()
 {
+    if(allFile.size() == 0)
+    {
+        QMessageBox::warning(this,
+                             QObject::tr("Size Error"),
+                             QObject::tr("Image file doesn't exist"),
+                             QMessageBox::Ok);
+        return;
+    }
     if(imageIndex - 1 > 0)
         imageIndex --;
     else
@@ -71,6 +79,14 @@ void ImageWindow::last()
 
 void ImageWindow::next()
 {
+    if(allFile.size() == 0)
+    {
+        QMessageBox::warning(this,
+                             QObject::tr("Size Error"),
+                             QObject::tr("Image file doesn't exist"),
+                             QMessageBox::Ok);
+        return;
+    }
     if(imageIndex + 1 < allFile.size())
         imageIndex++;
     else
