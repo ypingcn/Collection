@@ -52,10 +52,12 @@ void ImageCarousel::updateImage()
     if(QObject::sender() == lastAction)
     {
         qDebug()<<"last";
+        window->last();
     }
     else if(QObject::sender() == nextAction)
     {
         qDebug()<<"next";
+        window->next();
     }
 }
 

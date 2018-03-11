@@ -13,6 +13,8 @@ class ImageWindow : public QWidget
     Q_OBJECT
 public:
     explicit ImageWindow(QWidget *parent = nullptr);
+    void last();
+    void next();
 protected:
     void mousePressEvent(QMouseEvent *event);
     void mouseReleaseEvent(QMouseEvent *event);

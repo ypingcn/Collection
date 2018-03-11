@@ -54,3 +54,21 @@ void ImageWindow::mouseMoveEvent(QMouseEvent *event)
         this->move(nextPoint-lastPoint);
     }
 }
+
+void ImageWindow::last()
+{
+    if(imageIndex - 1 > 0)
+        imageIndex --;
+    else
+        imageIndex = allFile.size() - 1;
+    picture->setPixmap(QPixmap(currentPath+"/"+allFile[imageIndex]));
+}
+
+void ImageWindow::next()
+{
+    if(imageIndex + 1 < allFile.size())
+        imageIndex++;
+    else
+        imageIndex = 0;
+    picture->setPixmap(QPixmap(currentPath+"/"+allFile[imageIndex]));
+}
