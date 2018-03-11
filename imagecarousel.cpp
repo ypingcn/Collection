@@ -25,6 +25,9 @@ ImageCarousel::ImageCarousel(QWidget *parent)
     trayIcon->show();
 
     trayIcon->setContextMenu(trayMenu);
+
+    window = new ImageWindow;
+    window->show();
 }
 
 ImageCarousel::~ImageCarousel()

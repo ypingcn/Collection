@@ -25,10 +25,12 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        imagecarousel.cpp
+        imagecarousel.cpp \
+    imagewindow.cpp
 
 HEADERS += \
-        imagecarousel.h
+        imagecarousel.h \
+    imagewindow.h
 
 RESOURCES += \
     resources/icons.qrc

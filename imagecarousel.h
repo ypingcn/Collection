@@ -1,6 +1,8 @@
 #ifndef IMAGECAROUSEL_H
 #define IMAGECAROUSEL_H
 
+#include "imagewindow.h"
+
 #include <QWidget>
 #include <QSystemTrayIcon>
 #include <QMenu>
@@ -19,6 +21,8 @@ private:
     QAction * nextAction;
     QAction * lastAction;
     QAction * quitAction;
+
+    ImageWindow * window;
 
 private slots:
     void trayIconActivated(QSystemTrayIcon::ActivationReason reason);
