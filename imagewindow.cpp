@@ -55,6 +55,11 @@ void ImageWindow::mouseMoveEvent(QMouseEvent *event)
     }
 }
 
+void ImageWindow::mouseDoubleClickEvent(QMouseEvent *event)
+{
+    this->next();
+}
+
 void ImageWindow::last()
 {
     if(imageIndex - 1 > 0)
