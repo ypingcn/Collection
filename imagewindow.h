@@ -4,6 +4,9 @@
 #include <QWidget>
 #include <QPoint>
 #include <QMouseEvent>
+#include <QLabel>
+#include <QVBoxLayout>
+#include <QCoreApplication>
 
 class ImageWindow : public QWidget
 {
@@ -17,6 +20,14 @@ protected:
 private:
     QPoint lastPoint;
     bool mousePress;
+
+    QLabel * picture;
+    QVBoxLayout * layout;
+
+    QString currentPath = QCoreApplication::applicationDirPath();
+    QStringList allFile;
+    int imageIndex;
+
 signals:
 
 public slots:

@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/">
         <file>tray.png</file>
+        <file>error_default.png</file>
     </qresource>
 </RCC>
