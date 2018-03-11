@@ -29,3 +29,6 @@ SOURCES += \
 
 HEADERS += \
         imagecarousel.h
+
+RESOURCES += \
+    resources/icons.qrc
