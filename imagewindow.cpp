@@ -9,6 +9,8 @@ ImageWindow::ImageWindow(QWidget *parent) : QWidget(parent)
     this->setMouseTracking(true);
     mousePress = false;
 
+    this->setAttribute(Qt::WA_TranslucentBackground, true);
+
     layout = new QVBoxLayout(this);
     picture = new QLabel();
     layout->addWidget(picture);
@@ -16,6 +18,8 @@ ImageWindow::ImageWindow(QWidget *parent) : QWidget(parent)
     QDir dir(currentPath);
     QStringList filters;
     filters.append("*.jpg");
+    filters.append("*.jpeg");
+    filters.append("*.png");
     allFile = dir.entryList(filters,QDir::Files|QDir::Readable, QDir::Name);
 
     imageIndex = 0;
